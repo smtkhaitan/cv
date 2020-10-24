@@ -1,0 +1,140 @@
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.26rem;
+  color: #66BFBF;
+}
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6
+}
+
+hr {
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  color: grey;
+  border-width: 5px;
+  margin: 100px auto;
+}
+
+.intro {
+width: 30%;
+margin: auto;
+}
+
+.my-pic {
+  height: 300px;
+}
+
+
+.top-container {
+  background-color:  #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color:  #66BFBF;
+  padding-top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-first-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100px;
+}
+
+.skill-second-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copy-right {
+  color:  #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.BUTTON_PNC {
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.BUTTON_PNC:hover {
+   background: #1D1CD0;
+   border: solid #035A9F 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
